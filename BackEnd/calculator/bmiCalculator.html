@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>BMI Calculator</title>
 </head>
 <body>
-    <h1>Calculator</h1>
-    <form action="/" method="post">
-        <input type="text" name="num1" placeholder="First Number">
-        <input type="text" name="num2" placeholder="Second Number">
+    <h1>BMI Calculator</h1>
+
+    <form action="/bmicalculator" method="post">
+        <input type="text" name="height" placeholder="Height">
+        <input type="text" name="weight" placeholder="Weight">
         <button type="submit" name="submit">Calculate</button>
     </form>
+    
 </body>
 </html>
